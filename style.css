@@ -51,6 +51,9 @@ img{
     display: flex;
     align-items: center;
 }
+.mr-10{
+    margin-right: 10px;
+}
 
 .ml-20{
     margin-left: 20px;
@@ -67,11 +70,17 @@ img{
     font-size: 24px;
     margin: 0 5px;
 }
+.m-50{
+    margin: 50px;
+}
 .ml-100{
     margin-left: 100px;
 }
 .mr-100{
     margin-right: 100px;
+}
+.mr-30{
+    margin-right: 30px;
 }
 .f-grow-1{
     flex-grow: 1;
@@ -93,4 +102,11 @@ li{
 ul{
 
     float: right;
+}
+.w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+.w400{
+    width: 400px;
 }

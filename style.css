@@ -1,6 +1,6 @@
 p{
     margin: 0;
-    display: inline-block;
+    line-height: 20px;
 }
 button{
     padding: 8px 16px;
@@ -8,6 +8,7 @@ button{
     width: 100px;
     border:0;
     outline: none;
+    background-color: #99a194;
 }
 button:hover{
     background-color: #333;
@@ -26,7 +27,7 @@ button:active{
     line-height: 30px;
 }
 .logo{
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
 }
 img{
@@ -39,9 +40,8 @@ img{
     background-size: cover;
 }
 .btn-find{
-    width:500px;
+    width:45%;
     height: 50px;
-    margin: 20px;
     border-radius: 40px;
 }
 
@@ -58,6 +58,12 @@ img{
 .ml-20{
     margin-left: 20px;
 }
+.mb-30{
+    margin-bottom: 30px;
+}
+.m-15{
+    margin: 15px;
+}
 
 .float-right{
     float: right;
@@ -70,8 +76,11 @@ img{
     font-size: 24px;
     margin: 0 5px;
 }
-.m-50{
-    margin: 50px;
+.pl-50{
+    padding-left: 50px;
+}
+.pt-50{
+    padding-top: 50px;
 }
 .ml-100{
     margin-left: 100px;
@@ -91,13 +100,13 @@ a{
     padding: 10px 8px;
     border-radius: 20px;
 }
-a:hover{
+a.a-btn:hover{
     background-color: #333;
     color:#fff;
 }
 li{
     list-style-type: none;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 ul{
 
@@ -107,9 +116,52 @@ ul{
     width: 80%;
     margin: 0 auto;
 }
-.w400{
-    width: 400px;
+.w300{
+    width: 300px;
 }
 .p50{
     padding: 50px;
+}
+.bg-gray{
+    background-color: gray;
+}
+.m-30{
+    margin: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.pl-30{
+    padding-left: 30px;
+}
+.pt-30{
+    padding-top:30px;
+}
+.mt-0{
+    margin-top: 0px;
+}
+.a-underline{
+    color: red;
+}
+.a-underline:hover{
+    text-decoration: underline;
+    color:Blue;
+}
+.p20-150{
+    padding: 20px 150px;
+}
+.w100{
+    width: 100%;
+}
+.mr4{
+    margin-right: 4%;
+}
+.w48{
+    width:48%;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-20{
+    margin-top: 20px;
 }
